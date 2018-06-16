@@ -15,7 +15,7 @@ body {
 
 header {
   position: relative;
-  height: 70%;
+  height: 50%;
 }
 
 header h1 {
@@ -28,6 +28,10 @@ h2, h3 {
 
 .titleHr {
   width: 50%;
+}
+
+footer {
+  height: 100px;
 }
 
 

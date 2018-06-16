@@ -16,7 +16,32 @@ body {
 header {
   position: relative;
   height: 50%;
+
 }
+
+header p {
+  /* font-style:italic; */
+/*
+font-size: 30px;
+color: white; */
+
+}
+
+li {
+  font-size: 18px;
+  color: #fff !important;
+}
+
+p b {
+  font-family: "Caviar_Dreams_Bold";
+  font-weight: normal;
+  color: #222
+}
+
+/* .name {
+  font-size: 22px;
+  font-style: normal;
+} */
 
 /* header h1 {
   font-family: "AlexBrush";
@@ -35,18 +60,36 @@ h2, h3 {
   width: 70%;
 }
 
+
 .someStuff p
 {
-  font-size: 15px;
+  font-size: 17px;
 }
 
-.smaller {
-  font-size: 18px;
+.bold {
+font-family: "LoraB";
+/* color: #333230; */
+color: #504e4b;
+font-weight: bold;
+}
+
+
+
+.smallerBold {
+  font-size: 19px;
+  font-family: "LoraB";
+  font-weight: bold;
+  /* color: #333230; */
+  color: #504e4b;
 }
 
 .containHR {
-  width: 55%;
+  width: 60%;
 
+}
+
+.jumboBR {
+  /* border-top: 1px solid #666; */
 }
 
 .titleHr {
@@ -54,7 +97,7 @@ h2, h3 {
 }
 
 footer {
-  height: 100px;
+  height: 90px;
 }
 
 .textUp {
@@ -80,7 +123,81 @@ footer {
   src: url("Lora-Regular.ttf");
 }
 
+@font-face {
+  font-family: "LoraB";
+  src: url("Lora-Bold.ttf");
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("font/CaviarDreams.ttf");
+}
+
+@font-face {
+  font-family: "Caviar_Dreams_Bold";
+  src: url("font/Caviar_Dreams_Bold.ttf");
+}
+
+@font-face {
+  font-family: "CaviarDreamsI";
+  src: url("font/Caviar_Dreams_Italic.ttf");
+}
+
+@font-face {
+  font-family: "QuicksandR";
+  src: url("font/Quicksand-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "QuicksandL";
+  src: url("font/Quicksand-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "testFont";
+  src: url("font/OpenSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "openBold";
+  src: url("font/OpenSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "openBold";
+  src: url("font/OpenSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "artegra";
+  src: url("font/artegra_sans-100-thin-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-family: "AmaticSC";
+  src: url("font/AmaticSC-Regular.ttf");
+}
+h2, h3, h4, h5 {
+  /* font-family: "QuicksandR"; */
+font-family: "artegra";
+
+
+}
+
+h1 {
+  font-size: 4.5em;
+  font-family: "AmaticSC";
+}
+
+
+h2 {
+  /* font-size: 2.5em; */
+    font-size: 2.5em;
+}
+
+
 p {
-  font-size: 18px;
+  font-family: "OpenSans-Light";
+  font-size: 20px;
   color: #504e4b;
 }

@@ -18,13 +18,20 @@ header {
   height: 50%;
 }
 
-header h1 {
+/* header h1 {
   font-family: "AlexBrush";
 }
 
 h2, h3 {
   font-family: "LoraI";
+} */
+
+.sygdomTitle {
+  font-size: 20px;
+  font-weight: bold;
 }
+
+
 
 .titleHr {
   width: 50%;
@@ -58,7 +65,6 @@ footer {
 }
 
 p {
-  font-family: "LoraR";
   font-size: 18px;
   color: #504e4b;
 }

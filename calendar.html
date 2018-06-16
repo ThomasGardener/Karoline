@@ -13,54 +13,68 @@
   <body>
 
     <header class="d-flex flex-column">
-      <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
 
+    <!-- <a class="navbar-brand" href="info.html"><i>Karoline</i></a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
+      <ul class=" navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link langDK" href="index.html">Hjem</a>
+          <a class="nav-link langEN hide" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link langDK" href="info.html">Praktisk info</a>
+          <a class="nav-link langEN hide" href="info.html">Practical Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link langDK" href="available.html">Ledige pladser</a>
+          <a class="nav-link langEN hide" href="available.html">Available Spots</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link langDK" href="contact.html">Kontakt</a>
+          <a class="nav-link langEN hide" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link langDK" href="calendar.html">Kalandar<span class="sr-only">(current)</span></a>
+          <a class="nav-link langEN hide" href="calendar.html">Calendar<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ml-3">
+            <button class="langButton" id="btnEN"><img class="langIcon" src="Icons/UK.svg"></button>
+          <button class="langButton" id="btnDK"><img class="langIcon" src="Icons/Denmark.svg"></button>
+        </li>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
-    <ul class=" navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Hjem<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="info.html">Praktisk info</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="available.html">Ledige pladser</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Kontakt</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Kalandar</a>
-      </li>
+      </ul>
+    </div>
 
-    </ul>
+  </nav>
   </div>
-
-</nav>
-</div>
 <div class="somebackgroundimg">
 </div>
 
 <div class="jumbotron container bg-transparent text-white my-auto">
-  <h1>Ledige pladser</h1>
-  <p>Karoline Løwe Pihl</p>
+  <h1 class="langDK">Kalandar</h1>
+  <h1 class="langEN hide">Calendar</h1>
+  <!-- <div class="containHR">
+  <hr class="jumboBR">
+</div> -->
+  <p class="name ">Karoline Løwe Pihl</p>
 
-
-  <p class="lead">
-  </p>
 </div>
 
 </header>
 
 
+
+
+
 <div class="container text-center mt-5">
 
-<h2 class="mb-1"><b>Kalandar</b></h2>
+<h2 class="mb-1 langDK"><b>Kalandar</b></h2>
+<h2 class="mb-1 langEN hide"><b>Calendar</b></h2>
 
 
 </div>
@@ -68,15 +82,18 @@
 <div class="container text-center">
 
   <hr class="titleHr mb-4">
-  <h4 class="mb-4"><b>Her kan i se hvornår jeg holder lukket - ferier og helligdage</b></h4>
+  <h4 class="mb-4 langDK"><b>Her kan i se hvornår jeg holder lukket - ferier og helligdage</b></h4>
+  <h4 class="mb-4 langEN hide"><b>Here you can see when we are closed - Vacations and holidays</b></h4>
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=karolinepihl%40gmail.com&amp;color=%231B887A&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%232952A3&amp;ctz=Europe%2FCopenhagen" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <hr class="titleHr mt-5 mb-0">
 </div>
+
 <footer class="mt-5">
 <!-- <hr class="titleHr mt-auto align-self-center"> -->
 <div class="container pt-3 text-left">
 
-  <h3 class="mb-3"><b>Kontakt</b></h3>
+  <h3 class="mb-3 langDK"><b>Kontakt</b></h3>
+  <h3 class="mb-3 langEN hide"><b>Contact</b></h3>
   <hr>
   <div class="row">
   <div class="col-4">
@@ -84,7 +101,8 @@
   <p class="pb-2">Ny Kogensgade 5, 1472<br> København K</p>
   </div>
   <div class="col-4">
-    <p>Tlf: 60 51 24 69</p>
+    <p class="langDK">Tlf: 60 51 24 69</p>
+    <p class="langEN">Phone: 60 51 24 69</p>
     <p>Email: Karolinepihl@gmail.com</p>
   <!-- <h4 class="mb-4">Gmail: MazIsTheBest@gmail.com</h4>
   <h4 class="mb-0">Phone: 24-12-69-1337</h4> -->
@@ -98,5 +116,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="language.js"></script>
   </body>
 </html>

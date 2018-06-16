@@ -34,6 +34,13 @@ footer {
   height: 100px;
 }
 
+.textUp {
+  margin-top: -5px;
+}
+
+.imgSection {
+  height: 400px;
+}
 
 @font-face {
   font-family: "AlexBrush";

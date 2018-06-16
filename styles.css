@@ -108,6 +108,30 @@ footer {
   height: 400px;
 }
 
+.hide {
+  display: none;
+}
+
+/* Icons */
+
+
+
+.langIcon{
+width: 32px;
+}
+
+.langButton {
+  padding: 0;
+  margin: 5px;
+  background: none;
+  border: none;
+
+}
+
+.langButton:hover {
+  cursor: pointer;
+}
+
 /* @font-face {
   font-family: "AlexBrush";
   src: url("Font/AlexBrush-Regular.ttf");

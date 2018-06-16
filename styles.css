@@ -32,11 +32,11 @@ li {
   color: #fff !important;
 }
 
-p b {
+/* p b {
   font-family: "Caviar_Dreams_Bold";
   font-weight: normal;
   color: #222
-}
+} */
 
 /* .name {
   font-size: 22px;
@@ -108,7 +108,7 @@ footer {
   height: 400px;
 }
 
-@font-face {
+/* @font-face {
   font-family: "AlexBrush";
   src: url("Font/AlexBrush-Regular.ttf");
 }
@@ -116,24 +116,24 @@ footer {
 @font-face {
   font-family: "LoraI";
   src: url("Lora-BoldItalic.ttf");
-}
+} */
 
 @font-face {
   font-family: "LoraR";
-  src: url("Lora-Regular.ttf");
+  src: url("font/Lora-Regular.ttf");
 }
 
 @font-face {
   font-family: "LoraB";
-  src: url("Lora-Bold.ttf");
+  src: url("font/Lora-Bold.ttf");
 }
-
+/* 
 @font-face {
   font-family: "CaviarDreams";
   src: url("font/CaviarDreams.ttf");
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "Caviar_Dreams_Bold";
   src: url("font/Caviar_Dreams_Bold.ttf");
 }
@@ -141,9 +141,9 @@ footer {
 @font-face {
   font-family: "CaviarDreamsI";
   src: url("font/Caviar_Dreams_Italic.ttf");
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "QuicksandR";
   src: url("font/Quicksand-Regular.otf") format("opentype");
 }
@@ -151,9 +151,9 @@ footer {
 @font-face {
   font-family: "QuicksandL";
   src: url("font/Quicksand-Light.otf") format("opentype");
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "testFont";
   src: url("font/OpenSans-Regular.otf") format("opentype");
 }
@@ -166,7 +166,7 @@ footer {
 @font-face {
   font-family: "openBold";
   src: url("font/OpenSans-Bold.otf") format("opentype");
-}
+} */
 
 @font-face {
   font-family: "artegra";
@@ -197,7 +197,7 @@ h2 {
 
 
 p {
-  font-family: "OpenSans-Light";
+  font-family: "LoraR";
   font-size: 20px;
   color: #504e4b;
 }

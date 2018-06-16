@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+}
+.somebackgroundimg {
+  background-image: url("blur-close-up-decoration-133229.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+header {
+  position: relative;
+  height: 70%;
+}
+
+header h1 {
+  font-family: "AlexBrush";
+}
+
+h2, h3 {
+  font-family: "LoraI";
+}
+
+.titleHr {
+  width: 50%;
+}
+
+
+@font-face {
+  font-family: "AlexBrush";
+  src: url("Font/AlexBrush-Regular.ttf");
+}
+
+@font-face {
+  font-family: "LoraI";
+  src: url("Lora-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "LoraR";
+  src: url("Lora-Regular.ttf");
+}
+
+p {
+  font-family: "LoraR";
+  font-size: 18px;
+  color: #504e4b;
+}

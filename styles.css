@@ -44,6 +44,11 @@ h2, h3 {
   font-size: 18px;
 }
 
+.containHR {
+  width: 55%;
+
+}
+
 .titleHr {
   width: 50%;
 }

@@ -4,6 +4,8 @@ let buttonDK = document.getElementById("btnDK");
 let textEN = document.getElementsByClassName("langEN");
 let textDK = document.getElementsByClassName("langDK");
 
+console.log("Hi there Maz")
+
 
 buttonEN.addEventListener("click", () => {
 

@@ -15,9 +15,33 @@ body {
 
 header {
   position: relative;
-  height: 50%;
+  height: 480px;
+width: 100vw;
 
 }
+
+
+
+.navbar-toggler {
+  z-index: 888
+}
+
+.testContainer {
+  position: absolute;
+  margin-top: 60px;
+
+}
+
+@media (min-width: 768px) {
+
+.testContainer {
+  position: static;
+  margin-top: 0;
+
+}
+
+ }
+
 
 header p {
   /* font-style:italic; */
@@ -29,7 +53,7 @@ color: white; */
 
 li {
   font-size: 18px;
-  color: #fff !important;
+
 }
 
 /* p b {
@@ -59,6 +83,17 @@ h2, h3 {
 .standOut {
   width: 70%;
 }
+
+.headerLi
+{
+  list-style: none;
+  padding-left: 0 !important;;
+  margin-left: 0;
+  font-family: "LoraR";
+  font-size: 20px;
+  color: #504e4b;
+}
+
 
 
 .someStuff p

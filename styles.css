@@ -23,7 +23,11 @@ width: 100vw;
 
 
 .navbar-toggler {
-  z-index: 888
+  z-index: 888;
+}
+
+#navbarNavDropdown {
+  z-index: 887;
 }
 
 .testContainer {
@@ -32,13 +36,17 @@ width: 100vw;
 
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 992px) {
 
 .testContainer {
   position: static;
   margin-top: 0;
 
 }
+
+
+
 
  }
 

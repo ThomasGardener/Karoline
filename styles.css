@@ -20,7 +20,9 @@ width: 100vw;
 
 }
 
-
+.nav-link {
+  text-decoration: underline;
+}
 
 .navbar-toggler {
   z-index: 888;
@@ -37,7 +39,7 @@ width: 100vw;
 }
 
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) { */
 
 .testContainer {
   position: static;
@@ -45,10 +47,10 @@ width: 100vw;
 
 }
 
+/* } */
 
 
 
- }
 
 
 header p {
@@ -100,6 +102,7 @@ h2, h3 {
   font-family: "LoraR";
   font-size: 20px;
   color: #504e4b;
+  display: none;
 }
 
 
@@ -174,6 +177,10 @@ width: 32px;
 .langButton:hover {
   cursor: pointer;
 }
+
+
+
+
 
 /* @font-face {
   font-family: "AlexBrush";
@@ -267,4 +274,26 @@ p {
   font-family: "LoraR";
   font-size: 20px;
   color: #504e4b;
+}
+
+@media (min-width: 992px) {
+  .headerLi {
+    display: flex;
+  }
+
+}
+
+@media (max-width: 776px){
+header h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 484px){
+header .jumboBR {
+  margin-bottom: 0;
+}
+header .lead {
+    margin-bottom: 0;
+  }
 }
